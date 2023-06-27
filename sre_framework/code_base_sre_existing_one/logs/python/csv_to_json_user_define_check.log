@@ -1,0 +1,6 @@
+INFO:2023-06-26 14:15:49,575:csv_to_json_user_define_check.py:csv_to_json_user_define_check.py logging Started!
+INFO:2023-06-26 14:15:49,575:csv_to_json_user_define_check.py:CSV to JSON conversion started for 1 files
+INFO:2023-06-26 14:15:49,575:csv_to_json_user_define_check.py:ucir_user_define_check.csv: conversion in process.
+INFO:2023-06-26 14:15:49,580:csv_to_json_user_define_check.py:JSON Data Dumping Done
+INFO:2023-06-26 14:15:49,580:csv_to_json_user_define_check.py:ucir_user_define_check.json: conversion process completed!
+INFO:2023-06-26 14:15:49,580:csv_to_json_user_define_check.py:Output JSON saved at C:\Users\x243976\New folder\SRE_updated\code_base_sre_existing_one/output_json_intermediate/user_define_check

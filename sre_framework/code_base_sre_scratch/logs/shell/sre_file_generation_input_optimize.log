@@ -1,0 +1,695 @@
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_base_public_mobile||2|40
+
+*******Starting Creating metric for ent_cust_cust.bq_base_public_mobile*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+As Partition column for table bq_base_public_mobile is snapshot changing the column for query to: last_updt_ts
+Partition column for table bq_base_public_mobile: last_updt_ts
+*******Completed csv metric creation for ent_cust_cust.bq_base_public_mobile*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_daily_public_acts_v2_promos||2|40
+
+*******Starting Creating metric for ent_cust_cust.bq_daily_public_acts_v2_promos*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_daily_public_acts_v2_promos: actvy_dt
+*******Completed csv metric creation for ent_cust_cust.bq_daily_public_acts_v2_promos*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_dly_rate_plan_chng||2|40
+
+*******Starting Creating metric for ent_cust_cust.bq_dly_rate_plan_chng*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_dly_rate_plan_chng: actvy_dt
+*******Completed csv metric creation for ent_cust_cust.bq_dly_rate_plan_chng*******
+
+One or more parameters are empty in the line: enterprise|src_busws|bq_wln_multiculture||2|40
+
+*******Starting Creating metric for src_busws.bq_wln_multiculture*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_wln_multiculture does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_busws.bq_wln_multiculture*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_call_sess_sum||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_call_sess_sum*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_call_sess_sum: part_dt
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_call_sess_sum
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_emrgncy_scrub||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_emrgncy_scrub*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_emrgncy_scrub: insert_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_emrgncy_scrub*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_rts_repair_detail||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_rts_repair_detail*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_rts_repair_detail does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_cust_intractn.bq_rts_repair_detail*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_call_master||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_call_master*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+As Partition column for table bq_call_master is snapshot changing the column for query to: last_updt_ts
+Partition column for table bq_call_master: last_updt_ts
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_call_master
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_dnc_email||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_dnc_email*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+As Partition column for table bq_dnc_email is snapshot changing the column for query to: last_updt_ts
+Partition column for table bq_dnc_email: last_updt_ts
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_dnc_email
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_bill_media_chg_hist||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_bill_media_chg_hist*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_bill_media_chg_hist: snpsht_ts
+*******Completed csv metric creation for ent_cust_cust.bq_bill_media_chg_hist*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_billg_acct_addr_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_billg_acct_addr_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_addr_snpsht: billg_acct_addr_ts
+*******Completed csv metric creation for ent_cust_cust.bq_billg_acct_addr_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_billg_acct_alias_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_billg_acct_alias_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_alias_snpsht: billg_acct_alias_ts
+*******Completed csv metric creation for ent_cust_cust.bq_billg_acct_alias_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_billg_acct_mktg_cnsnt||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_billg_acct_mktg_cnsnt*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_mktg_cnsnt: billg_acct_mktg_cnsnt_ts
+*******Completed csv metric creation for ent_cust_cust.bq_billg_acct_mktg_cnsnt*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_billg_acct_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_billg_acct_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_snpsht: billg_acct_ts
+*******Completed csv metric creation for ent_cust_cust.bq_billg_acct_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_billg_arrngmt_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_billg_arrngmt_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_arrngmt_snpsht: billg_arrngmt_ts
+*******Completed csv metric creation for ent_cust_cust.bq_billg_arrngmt_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_cust_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_cust_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_cust_snpsht: cust_ts
+*******Completed csv metric creation for ent_cust_cust.bq_cust_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_non_telus_prod_equip_catlg||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_non_telus_prod_equip_catlg*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_non_telus_prod_equip_catlg: non_telus_prod_equip_catlg_ts
+*******Completed csv metric creation for ent_cust_cust.bq_non_telus_prod_equip_catlg*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_pay_chnl_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_pay_chnl_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_pay_chnl_snpsht: pay_chnl_ts
+*******Completed csv metric creation for ent_cust_cust.bq_pay_chnl_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prc_plan_catlg_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prc_plan_catlg_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prc_plan_catlg_snpsht: prc_plan_catlg_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prc_plan_catlg_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_equip_catlg||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_equip_catlg*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_equip_catlg: prod_equip_catlg_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_equip_catlg*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_equip_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_equip_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_equip_snpsht: prod_equip_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_equip_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_info_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_info_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_info_snpsht: prod_info_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_info_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_instnc_alias_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_instnc_alias_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_alias_snpsht: prod_instnc_alias_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_instnc_alias_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_instnc_equip_assn_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_instnc_equip_assn_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_equip_assn_snpsht: prod_instnc_equip_assn_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_instnc_equip_assn_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_instnc_nt_equip_assn_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_instnc_nt_equip_assn_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_nt_equip_assn_snpsht: prod_instnc_nt_equip_assn_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_instnc_nt_equip_assn_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_instnc_pre_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_instnc_pre_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_pre_snpsht: prod_instnc_pre_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_instnc_pre_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_prod_instnc_snpsht||1|40
+
+*******Starting Creating metric for ent_cust_cust.bq_prod_instnc_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_snpsht: prod_instnc_ts
+*******Completed csv metric creation for ent_cust_cust.bq_prod_instnc_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_billg_acct_addr_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_billg_acct_addr_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_addr_snpsht: billg_acct_addr_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_billg_acct_addr_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_billg_acct_mktg_cnsnt||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_billg_acct_mktg_cnsnt*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_mktg_cnsnt: billg_acct_mktg_cnsnt_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_billg_acct_mktg_cnsnt*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_billg_acct_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_billg_acct_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_snpsht: billg_acct_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_billg_acct_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_billg_arrngmt_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_billg_arrngmt_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_arrngmt_snpsht: billg_arrngmt_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_billg_arrngmt_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_non_telus_prod_equip_catlg||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_non_telus_prod_equip_catlg*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_non_telus_prod_equip_catlg: non_telus_prod_equip_catlg_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_non_telus_prod_equip_catlg*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_pay_chnl_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_pay_chnl_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_pay_chnl_snpsht: pay_chnl_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_pay_chnl_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_equip_catlg||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_equip_catlg*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_equip_catlg: prod_equip_catlg_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_equip_catlg*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_equip_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_equip_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_equip_snpsht: prod_equip_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_equip_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_info_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_info_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_info_snpsht: prod_info_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_info_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_instnc_equip_assn_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_instnc_equip_assn_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_equip_assn_snpsht: prod_instnc_equip_assn_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_instnc_equip_assn_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_instnc_nt_equip_assn_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_instnc_nt_equip_assn_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_nt_equip_assn_snpsht: prod_instnc_nt_equip_assn_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_instnc_nt_equip_assn_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_instnc_pre_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_instnc_pre_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_pre_snpsht: prod_instnc_pre_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_instnc_pre_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_instnc_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_instnc_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_snpsht: prod_instnc_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_instnc_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_billg_acct_alias_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_billg_acct_alias_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_billg_acct_alias_snpsht: billg_acct_alias_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_billg_acct_alias_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_cust_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_cust_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_cust_snpsht: cust_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_cust_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prc_plan_catlg_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prc_plan_catlg_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prc_plan_catlg_snpsht: prc_plan_catlg_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prc_plan_catlg_snpsht*******
+
+One or more parameters are empty in the line: enterprise|int_res_cust_cust|bq_prod_instnc_alias_snpsht||1|40
+
+*******Starting Creating metric for int_res_cust_cust.bq_prod_instnc_alias_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_prod_instnc_alias_snpsht: prod_instnc_alias_ts
+*******Completed csv metric creation for int_res_cust_cust.bq_prod_instnc_alias_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_web_chat||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_web_chat*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_web_chat: intractn_start_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_web_chat*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_doubleclick_activity_txn||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_doubleclick_activity_txn*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_doubleclick_activity_txn: event_tm_ts
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_doubleclick_activity_txn
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_doubleclick_click_txn||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_doubleclick_click_txn*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_doubleclick_click_txn: event_tm_ts
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_doubleclick_click_txn
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_doubleclick_impression_txn||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_doubleclick_impression_txn*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_doubleclick_impression_txn: event_tm_ts
+No matching YAML file found for dataset: ent_cust_intractn and table: bq_doubleclick_impression_txn
+One or more parameters are empty in the line: enterprise|ent_cust_request|bq_wln_lso_comm_dtl||2|40
+
+*******Starting Creating metric for ent_cust_request.bq_wln_lso_comm_dtl*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_wln_lso_comm_dtl does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_cust_request.bq_wln_lso_comm_dtl*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_cust_request|bq_wln_lso_comm_header||2|40
+
+*******Starting Creating metric for ent_cust_request.bq_wln_lso_comm_header*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_wln_lso_comm_header does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_cust_request.bq_wln_lso_comm_header*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_cust_request|bq_wln_lso_msg_evnt||2|40
+
+*******Starting Creating metric for ent_cust_request.bq_wln_lso_msg_evnt*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_wln_lso_msg_evnt does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_cust_request.bq_wln_lso_msg_evnt*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_account||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_account*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_account does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_account*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_case_comment||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_case_comment*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_case_comment does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_case_comment*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_cases||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_cases*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_cases does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_cases*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_cases_history||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_cases_history*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_cases_history does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_cases_history*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_channel||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_channel*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_channel does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_outcome.bq_outcome_channel*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_contacts||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_contacts*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_contacts does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_contacts*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_email_message||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_email_message*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_email_message does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_email_message*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_ldu||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_ldu*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_ldu does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_outcome.bq_outcome_ldu*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_mob_activation_bk||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_mob_activation_bk*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_mob_activation_bk does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_outcome.bq_outcome_mob_activation_bk*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_oms_coid||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_oms_coid*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_oms_coid does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_outcome.bq_outcome_oms_coid*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_task||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_task*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_task does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_task*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_task_history||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_task_history*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_task_history does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_task_history*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_team_list||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_team_list*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_team_list does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for src_outcome.bq_outcome_team_list*******
+
+One or more parameters are empty in the line: enterprise|src_outcome|bq_outcome_users||2|40
+
+*******Starting Creating metric for src_outcome.bq_outcome_users*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_outcome_users does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for src_outcome.bq_outcome_users*******
+
+One or more parameters are empty in the line: enterprise|ent_common_location_pdc|bq_passive_location_event||2|40
+
+*******Starting Creating metric for ent_common_location_pdc.bq_passive_location_event*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_passive_location_event: dim_dt
+Actual DAG schedule for ent_common_location_pdc.bq_passive_location_event is hourly, which is 0/1. Defaulting SRE schedule to 8.
+*******Completed csv metric creation for ent_common_location_pdc.bq_passive_location_event*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_lead||2|40
+
+*******Starting Creating metric for ent_cust_cust.bq_lead*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_lead: src_create_ts
+*******Completed csv metric creation for ent_cust_cust.bq_lead*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_resrc_config|bq_drop_permission||2|40
+
+*******Starting Creating metric for ent_resrc_config.bq_drop_permission*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_drop_permission: source_create_ts
+*******Completed csv metric creation for ent_resrc_config.bq_drop_permission*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_resrc_config|bq_drop_placement_order||2|40
+
+*******Starting Creating metric for ent_resrc_config.bq_drop_placement_order*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_drop_placement_order: source_create_ts
+*******Completed csv metric creation for ent_resrc_config.bq_drop_placement_order*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_sls_chnl|bq_busws_channel_sales_representative||2|40
+
+*******Starting Creating metric for ent_sls_chnl.bq_busws_channel_sales_representative*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_busws_channel_sales_representative: clos_dt
+*******Completed csv metric creation for ent_sls_chnl.bq_busws_channel_sales_representative*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_auth||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_auth*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_auth: create_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_auth*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_ua_contacthistory_subscr||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_ua_contacthistory_subscr*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_ua_contacthistory_subscr: cntct_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_ua_contacthistory_subscr*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_ua_dtlcontacthist_subscr||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_ua_dtlcontacthist_subscr*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_ua_dtlcontacthist_subscr: cntct_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_ua_dtlcontacthist_subscr*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_ua_responsehistory_subscr||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_ua_responsehistory_subscr*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_ua_responsehistory_subscr: rspns_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_ua_responsehistory_subscr*******
+
+One or more parameters are empty in the line: enterprise|ent_sls_chnl|bq_ccdm_vw||2|40
+
+*******Starting Creating metric for ent_sls_chnl.bq_ccdm_vw*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_ccdm_vw: snpsht_load_ts
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for ent_sls_chnl.bq_ccdm_vw*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_sls_chnl|bq_group_detail||2|40
+
+*******Starting Creating metric for ent_sls_chnl.bq_group_detail*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_group_detail: snpsht_load_ts
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for ent_sls_chnl.bq_group_detail*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_sls_chnl|bq_org_rpt_struct_detail||2|40
+
+*******Starting Creating metric for ent_sls_chnl.bq_org_rpt_struct_detail*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_org_rpt_struct_detail: snpsht_load_ts
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for ent_sls_chnl.bq_org_rpt_struct_detail*******
+
+Table found in historical YAML, skipping metric creation
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_aptilo_wifi_registration||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_aptilo_wifi_registration*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_aptilo_wifi_registration: event_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_aptilo_wifi_registration*******
+
+*******Completed csv metric creation for ent_cust_intractn.bq_aptilo_wifi_registration*******
+
+One or more parameters are empty in the line: enterprise|ent_srvc_config|bq_wifi_ap||2|40
+
+*******Starting Creating metric for ent_srvc_config.bq_wifi_ap*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_wifi_ap: create_ts
+*******Completed csv metric creation for ent_srvc_config.bq_wifi_ap*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_ord_actvy|bq_dly_wln_ord_item_actvy||2|40
+
+*******Starting Creating metric for ent_cust_ord_actvy.bq_dly_wln_ord_item_actvy*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_dly_wln_ord_item_actvy: dly_ord_itm_actvy_ts
+No matching YAML file found for dataset: ent_cust_ord_actvy and table: bq_dly_wln_ord_item_actvy
+One or more parameters are empty in the line: enterprise|ent_resrc_config|bq_log_data||2|40
+
+*******Starting Creating metric for ent_resrc_config.bq_log_data*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_log_data does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_resrc_config.bq_log_data*******
+
+One or more parameters are empty in the line: enterprise|ent_resrc_config|bq_wls_cell_tower_data||2|40
+
+*******Starting Creating metric for ent_resrc_config.bq_wls_cell_tower_data*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_wls_cell_tower_data does not have a partition column, so adding last_updt_ts column for query.
+*******Completed csv metric creation for ent_resrc_config.bq_wls_cell_tower_data*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_mid_google_syncid_uuid_xref||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_mid_google_syncid_uuid_xref*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Partition column for table bq_mid_google_syncid_uuid_xref: create_ts
+*******Completed csv metric creation for ent_cust_intractn.bq_mid_google_syncid_uuid_xref*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_cust_ai_opt_out||2|40
+
+*******Starting Creating metric for ent_cust_intractn.bq_cust_ai_opt_out*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_cust_ai_opt_out does not have a partition column, so adding last_updt_ts column for query.
+Table found in historical YAML, skipping metric creation
+*******Completed csv metric creation for ent_cust_intractn.bq_cust_ai_opt_out*******
+

@@ -1,0 +1,7 @@
+INFO:2023-06-26 14:15:48,905:csv_to_json_job_performance_check.py:csv_to_json_job_performance_check.py logging Started!
+INFO:2023-06-26 14:15:48,905:csv_to_json_job_performance_check.py:C:\Users\x243976\New folder\SRE_updated\code_base_sre_existing_one
+INFO:2023-06-26 14:15:48,910:csv_to_json_job_performance_check.py:CSV to JSON conversion started for 1 files
+INFO:2023-06-26 14:15:48,910:csv_to_json_job_performance_check.py:ucir_job_performance_check.csv: conversion in process.
+INFO:2023-06-26 14:15:48,910:csv_to_json_job_performance_check.py:JSON Data Dumping Done
+INFO:2023-06-26 14:15:48,910:csv_to_json_job_performance_check.py:ucir_job_performance_check.json: conversion process completed!
+INFO:2023-06-26 14:15:48,910:csv_to_json_job_performance_check.py:Output JSON saved at C:\Users\x243976\New folder\SRE_updated\code_base_sre_existing_one\output_json_intermediate\job_performance_check

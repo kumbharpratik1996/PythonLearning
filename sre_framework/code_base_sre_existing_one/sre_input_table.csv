@@ -1,0 +1,9 @@
+pipeline|project_name|dataset_name|table_name|column_name|interval_days|compare_value|missing_metric
+casa|enterprise|ent_cust_intractn|bq_casa_case_task||2|40|sla_check,user_define_check
+cpms|enterprise|src_cpms|bq_address||2|40|sla_check
+cpms|work|staging_cpms|bq_address||2|40|sla_check
+fwds|enterprise|ent_workforce|bq_team_member_time_entry||2|40|user_define_check
+ucir|enterprise|ent_cust_cust|bq_ucir_hr_mktg_profl_billg_acct_snpsht||2|40|sla_check,user_define_check,job_performance_check
+ucir|enterprise|ent_cust_cust|bq_ucir_hr_mktg_profl_cust_snpsht||2|40|sla_check,user_define_check,job_performance_check
+rms|enterprise|ent_cust_ord|bq_customer_profile||2|40|job_performance_check
+custods|enterprise|src_custods|bq_cust_contact_indvdl_asgnmt||2|40|

@@ -1,0 +1,96 @@
+starting sre_file_generation_input_existing_optimize.sh
+Mon, Jun 26, 2023  2:09:48 PM
+One or more parameters are empty in the line: enterprise|ent_cust_intractn|bq_casa_case_task||2|40|sla_check,user_define_check
+
+*******Starting Creating metric for ent_cust_intractn.bq_casa_case_task*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Actual DAG schedule for ent_cust_intractn.bq_casa_case_task is hourly, which is */2. Defaulting SRE schedule to 8.
+Actual DAG schedule for ent_cust_intractn.bq_casa_case_task is hourly, which is */2. Defaulting SRE schedule to 8.
+One or more parameters are empty in the line: enterprise|src_cpms|bq_address||2|40|sla_check
+
+*******Starting Creating metric for src_cpms.bq_address*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+echo else condtion 0 8 * * *
+sla_check metric is included in missing_metric
+
+
+*******Completed csv for metric sla_check -completeness for src_cpms.bq_address*******
+
+One or more parameters are empty in the line: work|staging_cpms|bq_address||2|40|sla_check
+
+*******Starting Creating metric for staging_cpms.bq_address*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_address does not have a partition column, so adding last_updt_ts column for query.
+sla_check metric is included in missing_metric
+
+
+*******Completed csv for metric sla_check -completeness for staging_cpms.bq_address*******
+
+One or more parameters are empty in the line: enterprise|ent_workforce|bq_team_member_time_entry||2|40|user_define_check
+
+*******Starting Creating metric for ent_workforce.bq_team_member_time_entry*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Actual DAG schedule for ent_workforce.bq_team_member_time_entry is hourly, which is */3. Defaulting SRE schedule to 8.
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_ucir_hr_mktg_profl_billg_acct_snpsht||2|40|sla_check,user_define_check,job_performance_check
+
+*******Starting Creating metric for ent_cust_cust.bq_ucir_hr_mktg_profl_billg_acct_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+echo else condtion 0 */6 * * *
+Actual DAG schedule for ent_cust_cust.bq_ucir_hr_mktg_profl_billg_acct_snpsht is hourly, which is */6. Defaulting SRE schedule to 8.
+sla_check metric is included in missing_metric
+
+
+*******Completed csv for metric sla_check -completeness for ent_cust_cust.bq_ucir_hr_mktg_profl_billg_acct_snpsht*******
+
+user_define_check metric is included in missing_metric
+
+
+*******Completed csv for metric define_check-completeness for ent_cust_cust.bq_ucir_hr_mktg_profl_billg_acct_snpsht*******
+
+job_performance metric is included in missing_metric
+
+
+*******Completed csv for metric job_performance for ent_cust_cust.bq_ucir_hr_mktg_profl_billg_acct_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_cust|bq_ucir_hr_mktg_profl_cust_snpsht||2|40|sla_check,user_define_check,job_performance_check
+
+*******Starting Creating metric for ent_cust_cust.bq_ucir_hr_mktg_profl_cust_snpsht*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+echo else condtion 0 */6 * * *
+Actual DAG schedule for ent_cust_cust.bq_ucir_hr_mktg_profl_cust_snpsht is hourly, which is */6. Defaulting SRE schedule to 8.
+sla_check metric is included in missing_metric
+
+
+*******Completed csv for metric sla_check -completeness for ent_cust_cust.bq_ucir_hr_mktg_profl_cust_snpsht*******
+
+user_define_check metric is included in missing_metric
+
+
+*******Completed csv for metric define_check-completeness for ent_cust_cust.bq_ucir_hr_mktg_profl_cust_snpsht*******
+
+job_performance metric is included in missing_metric
+
+
+*******Completed csv for metric job_performance for ent_cust_cust.bq_ucir_hr_mktg_profl_cust_snpsht*******
+
+One or more parameters are empty in the line: enterprise|ent_cust_ord|bq_customer_profile||2|40|job_performance_check
+
+*******Starting Creating metric for ent_cust_ord.bq_customer_profile*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_customer_profile does not have a partition column, so adding last_updt_ts column for query.
+One or more parameters are empty in the line: enterprise|src_custods|bq_cust_contact_indvdl_asgnmt||2|40|
+
+*******Starting Creating metric for src_custods.bq_cust_contact_indvdl_asgnmt*******
+Table is available in BigQuery
+Column for user_define_check query is not provided, deriving from the table..
+Table bq_cust_contact_indvdl_asgnmt does not have a partition column, so adding last_updt_ts column for query.
+echo else condtion 15 5 * * *
+sre_file_generation_input_existing_optimize.sh process completed
+Mon, Jun 26, 2023  2:15:48 PM

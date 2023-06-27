@@ -1,0 +1,13 @@
+pipeline|project_name|dataset_name|table_name|column_name|interval_days|compare_value
+busws|enterprise|ent_cust_cust|bq_base_public_mobile||2|40
+busws|enterprise|ent_cust_cust|bq_daily_public_acts_v2_promos||2|40
+busws|enterprise|ent_cust_cust|bq_dly_rate_plan_chng||2|40
+busws|enterprise|src_busws|bq_wln_multiculture||2|40
+call_intractn|enterprise|ent_cust_intractn|bq_call_sess_sum||2|40
+camp|enterprise|ent_cust_intractn|bq_emrgncy_scrub||2|40
+cerepair|enterprise|ent_cust_intractn|bq_rts_repair_detail||2|40
+cust_intractn|enterprise|ent_cust_intractn|bq_call_master||2|40
+cust_intractn|enterprise|ent_cust_intractn|bq_dnc_email||2|40
+custprofl|enterprise|ent_cust_cust|bq_bill_media_chg_hist||1|40
+custprofl|enterprise|ent_cust_cust|bq_billg_acct_addr_snpsht||1|40
+custprofl|enterprise|ent_cust_cust|bq_billg_acct_alias_snpsht||1|40

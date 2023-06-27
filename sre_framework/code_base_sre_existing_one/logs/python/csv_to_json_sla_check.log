@@ -1,0 +1,9 @@
+INFO:2023-06-26 14:15:49,250:csv_to_json_sla_check.py:csv_to_json_sla_check.py logging Started!
+INFO:2023-06-26 14:15:49,250:csv_to_json_sla_check.py:CSV to JSON conversion started for 2 files
+INFO:2023-06-26 14:15:49,250:csv_to_json_sla_check.py:cpms_sla_check.csv: conversion in process.
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:Dumping data into cpms_sla_check.json,
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:cpms_sla_check.json: conversion process completed!
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:ucir_sla_check.csv: conversion in process.
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:Dumping data into ucir_sla_check.json,
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:ucir_sla_check.json: conversion process completed!
+INFO:2023-06-26 14:15:49,255:csv_to_json_sla_check.py:Output JSON saved at C:\Users\x243976\New folder\SRE_updated\code_base_sre_existing_one\output_json_intermediate\sla_check
