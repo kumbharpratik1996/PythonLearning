@@ -1,5 +1,4 @@
 # import calendar
-#
 # joined_month = calendar.month(2021,8)
 # current_month = joined_month
 # print(joined_month)
