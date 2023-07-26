@@ -79,4 +79,4 @@ else
   echo "merge.py failed."
 fi
 
-dos2unix ./git/**
+dos2unix .
